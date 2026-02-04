@@ -20,3 +20,4 @@ En el notebook se incluyen:
 
 ---
 *Proyecto desarrollado para demostrar capacidades de análisis de datos y despliegue de modelos de ML.*
+<img width="817" height="446" alt="Captura de pantalla (845)" src="https://github.com/user-attachments/assets/5b93d704-4d0b-4020-be37-825d4480fc47" />
