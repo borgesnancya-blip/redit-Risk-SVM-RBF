@@ -1,2 +1,22 @@
-# redit-Risk-SVM-RBF
-Modelo de Machine Learning para predecir riesgo crediticio usando SVM con Kernel RBF. Alcanzó un 93% de precisión (accuracy) y 84% de sensibilidad (recall) en la detección de riesgo. Optimizado con RobustScaler
+# 📊 Predicción de Riesgo Crediticio - SVM (Kernel RBF)
+
+Este proyecto desarrolla un modelo predictivo para la clasificación de riesgo bancario, enfocado en identificar clientes con alta probabilidad de incumplimiento.
+
+## 🎯 Resultados del Modelo
+El modelo final alcanzó métricas de alto rendimiento, fundamentales para el sector financiero:
+* **Accuracy General:** 93.3%
+* **Precisión (Riesgo Alto):** 91%
+* **Recall / Sensibilidad (Riesgo Alto):** 84% (Capacidad crítica para detectar morosos).
+
+## 🛠️ Stack Técnico y Metodología
+* **Algoritmo:** Support Vector Machine (SVM) con **Kernel RBF** para capturar patrones de riesgo no lineales.
+* **Preprocesamiento:** Implementación de **RobustScaler** para mitigar el impacto de valores atípicos (outliers) en montos de crédito.
+* **Análisis:** Manejo de datos faltantes en cuentas de ahorro y cuenta corriente, transformándolos en categorías de valor predictivo.
+
+## 📈 Visualizaciones Incluidas
+En el notebook se incluyen:
+1. **Matriz de Confusión:** Validación visual de falsos positivos y negativos.
+2. **Fronteras de Decisión:** Representación 2D de cómo el Kernel RBF separa los perfiles de riesgo.
+
+---
+*Proyecto desarrollado para demostrar capacidades de análisis de datos y despliegue de modelos de ML.*
